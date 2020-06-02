@@ -6,19 +6,21 @@ Mesin *open source* yang sangat populer saat ini digunakan untuk menyimpan data 
 </p> 
 
 ## Instalasi PostgreSQL
-Terdapat beberapa versi PostgreSQL yang tersedia, berikut merupakan daftarnya 
-<p align="center">
-<img src="/Images/postgres-version-selection.png" width="250" />
 
-*Source: [enterprisedb.com](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)*
-</p> 
+### Mac <br/>
+Untuk mempermudah instalasi PostgreSQL pada Mac, instalasi dimulai dengan menginstall Homebrew. <br/>
+[Homebrew](https://brew.sh/) merupakan sebuah *package manager* di MacOS. Cara menginstall nya : 
+1. Buka Terminal 
+2. Ketik `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+` pada terminal dan jalankan.
+3. Ketik `brew doctor` dan jalankan untuk memeriksa apakah terdapat kesalahan instalasi 
+4. Ketik `brew update` dan jalankan untuk mengupdate Hombrew ke versi terakhir. <br/>
 
-Pilihlah sesuai *Operating System* yang kamu punya, lalu klik link yang tersedia untuk mulai mendownload app.
+Setelah Hombrew terinstall, ketik `brew install postgresql` dan jalankan. 
 
-* Mac <br/>
+### Windows <br/>
 
 
-* Windows <br/>
 
 ## Instalasi MySQL
 
