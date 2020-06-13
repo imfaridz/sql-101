@@ -1,29 +1,42 @@
-Terdapat banyak sekali varian mesin *database relational* yang saat ini ada untuk menyimpan item data.\
+Terdapat banyak sekali varian mesin *database relational* yang saat ini ada untuk menyimpan item data.<br/>
 Mesin *open source* yang sangat populer saat ini digunakan untuk menyimpan data beberapa contohnya adalah *PostgreSQL* dan *MySQL*.
 <p align="center">
-<img src="/Images/postgre-img.jpg" width="250">
-<img src="/Images/mysql-img.jpg" width="250">
+<img src="/Images/postgre-img.jpg" width="250" />
+<img src="/Images/mysql-img.jpg" width="250" />
 </p> 
 
-## Instalasi PostgreSQL
-Terdapat beberapa versi PostgreSQL yang tersedia, berikut merupakan daftarnya 
-<p align="center">
-<img src="/Images/postgres-version-selection.jpg" width="250">
+## Instalasi Mesin Database di Mac OS
+Untuk mempermudah instalasi mesin Database pada Mac, instalasi dimulai dengan menginstall Homebrew. <br/>
+[Homebrew](https://brew.sh/) merupakan sebuah *package manager* di MacOS. Cara menginstall nya : 
+1. Buka Terminal 
+2. Ketik `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+` pada terminal dan jalankan.
+3. Ketik `brew doctor` dan jalankan untuk memeriksa apakah terdapat kesalahan instalasi 
+4. Ketik `brew update` dan jalankan untuk mengupdate Hombrew ke versi paling baru. <br/>
 
-*Source: [enterprisedb.com](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)*
-</p> 
+### PostgreSQL <br/>
 
-Pilihlah sesuai *Operating System* yang kamu punya, lalu klik link yang tersedia untuk mulai mendownload app.
+1. ketik `brew install postgresql` pada terminal dan jalankan untuk memulai instalasi PostgreSQL.
 
-* Mac
+Untuk menyalakan PostgreSQL, ketik dan jalankan pada terminal: <br/>
+`brew services start postgresql` <br/>
 
-* Windows
+### MySQL <br/>
 
-## Instalasi MySQL
+1. ketik `brew install mysql` pada terminal dan jalankan.
+2. ketik `mysqladmin -u root password '<yourpassword>'` untuk setup password user root, <br/>
+ubah `<yourpassword>` sesuai dengan password yang kamu inginkan.
 
-* Mac
+Untuk menyalakan MySQL, ketik dan jalankan pada terminal: <br/>
+`brew services start mysql` <br/>
 
-* Windows
+
+## Instalasi Mesin Database di Windows
+
+* Mac <br/>
+
+
+* Windows <br/>
 
 
 
