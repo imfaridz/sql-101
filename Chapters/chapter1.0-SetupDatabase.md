@@ -1,8 +1,8 @@
 Terdapat banyak sekali varian mesin *database relational* yang saat ini ada untuk menyimpan item data.<br/>
 Mesin *open source* yang sangat populer saat ini digunakan untuk menyimpan data beberapa contohnya adalah *PostgreSQL* dan *MySQL*.
 <p align="center">
-<img src="/../Images/postgre-img.jpg" width="250" />
-<img src="/../Images/mysql-img.jpg" width="250" />
+<img src="./Images/postgre-img.jpg" width="250" />
+<img src="./Images/mysql-img.jpg" width="250" />
 </p> 
 
 ## Instalasi Mesin Database di Mac OS
@@ -25,7 +25,7 @@ Untuk mempermudah instalasi mesin Database pada Mac, instalasi dimulai dengan me
 5. Setelah itu, untuk menyalakan server postgres hanya cukup dengan menggunakan command `pg_start` dan `pg_stop` untuk mematikan server postgresnya.
 6. Untuk cek semua instalasi sudah ter-install dengan baik, ketik `psql` pada terminal dan idealnya akan menghasilkan output seperti berikut: <br/>
 <p align="center">
-<img src="/../Images/postgre-success.png" width="200" />
+<img src="./Images/postgre-success.png" width="200" />
 </p> 
 7. Ketik `\q` untuk keluar dari postgres.
 
