@@ -14,7 +14,7 @@ Relational Database itu sendiri merupakan kumpulan item data dengan hubungan yan
 
 Gampangnya kalau diilustrasikan :
 <p align="center">
-<img src="/Images/example-relational-db.jpg" width="500" />
+<img src="../Images/example-relational-db.jpg" width="500" />
 </p>
 
 *Sumber : [stackexchange](https://stackoverflow.com/questions/39185915/relational-database-tables-for-food-products-specifying-different-categories)*
@@ -23,7 +23,7 @@ Singkat saja, untuk membaca Relational Database seperti contoh gambar diatas. Ga
 *Cardinality* merepresentasikan jumlah maksimum item data dalam satu entitas(tabel) berhubungan dalam entitas(tabel) lain.<br/>
  Sedangkan, *Ordinality* merepresentasikan jumlah minimum item data dalam satu entitas (tabel) berhubungan dengan entitas(tabel) lain.
 <p align="center">
-<img src="/Images/erd-notation.png" width="400" />
+<img src="../Images/erd-notation.png" width="400" />
 </p>
 
 Setelah item data diakses dan ditransformasikan sedemikian rupa menggunakan SQL, data itu dapat disulap menjadi sebuah **Insights** yang dapat membuat banyak orang terkesima. 

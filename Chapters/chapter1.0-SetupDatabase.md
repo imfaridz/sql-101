@@ -24,7 +24,7 @@ Untuk mempermudah instalasi mesin Database pada Mac, instalasi dimulai dengan me
 `alias pg_stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"`
 5. Setelah itu, untuk menyalakan server postgres hanya cukup dengan menggunakan command `pg_start` dan `pg_stop` untuk mematikan server postgresnya.
 6. Untuk cek semua instalasi sudah ter-install dengan baik, ketik `psql` pada terminal dan idealnya akan menghasilkan output seperti berikut: <br/>
-<p align="center">
+<p>
 <img src="../Images/postgre-success.png" width="200" />
 </p> 
 7. Ketik `\q` untuk keluar dari postgres.
