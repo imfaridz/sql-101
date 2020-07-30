@@ -6,6 +6,7 @@ Mesin *open source* yang sangat populer saat ini digunakan untuk menyimpan data 
 </p> 
 
 ## Instalasi Mesin Database di Mac OS
+### Pre-Requisite
 Untuk mempermudah instalasi mesin Database pada Mac, instalasi dimulai dengan menginstall Homebrew. <br/>
 [Homebrew](https://brew.sh/) merupakan sebuah *package manager* di MacOS. Cara menginstall nya : 
 1. Buka Terminal 
@@ -16,7 +17,7 @@ Untuk mempermudah instalasi mesin Database pada Mac, instalasi dimulai dengan me
 
 ### PostgreSQL <br/>
 
-1. ketik `brew install postgres` pada terminal dan jalankan untuk memulai instalasi PostgreSQL.
+1. Ketik `brew install postgres` pada terminal dan jalankan untuk memulai instalasi PostgreSQL.
 2. Ketik `ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents` dan jalankan untuk mendapatkan posisi LaunchAgent dari PostgreSQL. 
 3. Copy output dari command nomor 2 kedalam clipboard <br/>*contoh outputnya seperti `/usr/local/opt/postgresql/homebrew.mxcl.postgresql.plist`
 4. Buat 2 alias untuk menyalakan/mematikan server postgres dengan cara menambahkan hasil output pada command sebelumnya pada syntax :
@@ -32,12 +33,15 @@ Untuk mempermudah instalasi mesin Database pada Mac, instalasi dimulai dengan me
 
 ### MySQL <br/>
 
-1. ketik `brew install mysql` pada terminal dan jalankan.
-2. ketik `mysqladmin -u root password '<yourpassword>'` untuk setup password user root, <br/>
-ubah `<yourpassword>` sesuai dengan password yang kamu inginkan.
-
-Untuk menyalakan MySQL, ketik dan jalankan pada terminal: <br/>
-`brew services start mysql` <br/>
+1. Ketik `brew install mysql` pada terminal dan jalankan.
+2. Setelah instalasi selesai, terdapat 2 cara untuk menjalankan service MySQL : <br/>
+    1. `brew services start mysql`
+    2. `mysql.server start` 
+3. Untuk cek semua instalasi sudah ter-install dengan baik, ketik dan jalankan `mysql -uroot` pada terminal dan idealnya akan menghasilkan output seperti berikut: <br/>
+<p>
+<img src="../Images/mysql-success.png" width="200" />
+</p> 
+4. Ketik `\q` untuk keluar dari MySQL command line. 
 
 
 ## Instalasi Mesin Database di Windows
