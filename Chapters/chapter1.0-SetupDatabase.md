@@ -40,12 +40,5 @@ Untuk mempermudah instalasi mesin Database pada Mac, instalasi dimulai dengan me
 4. Ketik `\q` untuk keluar dari MySQL command line. 
 
 
-## Instalasi Mesin Database di Windows
-
-* Mac <br/>
-
-
-* Windows <br/>
-
-
+[Lanjut ke Chapter 2.0 - SQL Editor](chapter2.0-SQL_IDE.md) 
 
