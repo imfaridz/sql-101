@@ -18,14 +18,10 @@ Untuk mempermudah instalasi mesin Database pada Mac, instalasi dimulai dengan me
 ### PostgreSQL <br/>
 
 1. Ketik `brew install postgres` pada terminal dan jalankan untuk memulai instalasi PostgreSQL.
-2. Ketik `ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents` dan jalankan untuk mendapatkan posisi LaunchAgent dari PostgreSQL. 
-3. Copy output dari command nomor 2 kedalam clipboard <br/>*contoh outputnya seperti `/usr/local/opt/postgresql/homebrew.mxcl.postgresql.plist`
-4. Buat 2 alias untuk menyalakan/mematikan server postgres dengan cara menambahkan hasil output pada command sebelumnya pada syntax :
-<br/>`alias pg_start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"` <br/>
-`alias pg_stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"`
-5. Setelah itu, untuk menyalakan server postgres hanya cukup dengan menggunakan command `pg_start`.
-6. Buat database dengan ketik `createdb <namauser>`
-6. Untuk cek semua instalasi sudah ter-install dengan baik, ketik `psql` pada terminal dan idealnya akan menghasilkan output seperti berikut: <br/>
+2. Ketik `bre services start postgres` untuk menyalakan service PostgreSQL.
+3. Untuk membuat database user sebelum masuk ke dalam postgres command line dengan cara menjalankan command `psql -d template1` pada terminal.
+4. Lalu ketik `createdb <nama user>`
+5. Untuk cek semua instalasi sudah ter-install dengan baik, ketik `psql` pada terminal dan idealnya akan menghasilkan output seperti berikut: <br/>
 <p>
 <img src="../Images/postgre-success.png" width="200" />
 </p> 
