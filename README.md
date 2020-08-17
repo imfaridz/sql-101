@@ -6,7 +6,7 @@
 
 - [Getting Started](/Chapters/chapter0.0-GettingStarted.md)
 - [Setup Database](/Chapters/chapter1.0-SetupDatabase.md)
-- [Query Editor](/Chapters/chapter2.0-ImportData.md)
+- [Query Editor](/Chapters/chapter2.0-SQL_IDE.md)
 - [Team](#team)
 - [FAQ](/Others/FAQ.md)
 - [Support](#support)
